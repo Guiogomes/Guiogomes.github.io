@@ -7,61 +7,128 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <title>Portfólio Guilherme Gomes da Silva</title>
     <style>
-        h1 {
+        body{
+            background-color: #d0d1ffff;
+        }
+        .meuNome{
             color: rgb(214, 65, 28);
             font-style: italic;
             font-family: "Sofia", sans-serif;
             text-align: center;
             font-size: 80px;
             line-height: 120px;
-            font-weight: 600;
+            font-weight: bold;
         }
         .circled {
             border-radius: 30%;
-            position: absolute;
+            
             left: 845px;
             top: 185px;           
         }
         p{
+            color: rgb(190, 187, 33);
+            font-family: "Trirong", sans-serif;
+            text-align: center;
+            line-height: 30px;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 100;
+            
 
         }
+        .heads{
+            color: rgb(214, 65, 28);
+            text-align: center;
+            font-size: 40px;
+            font-weight: 800;
+            letter-spacing: -1;
+
+        }
+        .links{
+            font-family: "Trirong", sans-serif;
+            text-align: center;
+            line-height: 20px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 100;
+            color: rgb(211, 38, 196);
+            
+        }
+        a{
+            font-family: "Trirong", sans-serif;
+            text-align: center;
+            line-height: 20px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 100;
+            color: rgb(211, 38, 196);
+        }
+        .big {
+            font-family: "Trirong", sans-serif;
+            text-align: center;
+            line-height: 25px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 100;
+            color: rgb(190, 187, 33);
+        }
+        .small {
+            font-family: "Trirong", sans-serif;
+            text-align: center;
+            line-height: 25px;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 100;
+            color: rgb(190, 187, 33);
+        }
+        
+
         
     </style>
 </head>
 <body>
-    <h1 id="Nome"><strong>Guilherme Gomes da Silva</strong><br><br></h1>
+    <h1 class="meuNome">Guilherme Gomes da Silva<br><br></h1>
     <img class="circled displayed" id="Gui"src="Eu2.jpeg" height="350px" alt="Foto Guilherme Gomes da Silva"> 
     <br><br> 
-    <h2 id="Nasci"> Naturalidade </h2>
+    <h2 id="Nasci" class="heads"> Naturalidade </h2>
     <br>
-    <p>Nascido em Belo Horizonte, Minas Gerais, hoje resido em Araxá, interior do estado de Minas.<br>
-    <br><br>
-    <h2 id="formacao">Formação</h2>
+    <p>Nascido em Belo Horizonte, Minas Gerais, hoje resido em Araxá, interior do estado de Minas.<br></p>
     <br>
-    Formado em Arquitetura e Urbanismo pelo <em>Instituto Metodista Izabela Hendrix</em> <br>
+    <h2 id="formacao" class="heads">Formação</h2>
+    <br>
+    <p>Formado em Arquitetura e Urbanismo pelo <em>Instituto Metodista Izabela Hendrix</em> <br>
     tenho atuação ampla na área de <em>Patrimônio Histórico-Cultural</em>, mas, em busca <br>
     de novos desafios e conhecimentos,resolvi migrar para a área de <em>Desenvolvimento <br>
     Web</em>, vendo nessa a aliança entre a paixão por tecnológia e a curiosidade que <br>
     deve sempre nos cativar.</p>
-    <a href="https://www.linkedin.com/in/guilhermegomesdasilva/" target="_blank">Meu LinkedIn</a><br>
-    <a href="https://github.com/Guiogomes" target="_blank">Meu GitHub</a>
+    <a class="links" href="https://www.linkedin.com/in/guilhermegomesdasilva/" target="_blank">Meu LinkedIn</a><br>
+    <a class="links" href="https://github.com/Guiogomes" target="_blank">Meu GitHub</a>
     <br><br>
-    <h2 id="gosto">Interesses</h2>
-    <p>Como lazer gosto de acompanhar sites de cultura pop, como o do <a href="https://www.omelete.com.br/" target="_blank">omelete</a><br>
-    um dos primeiros a ter ideia de discutir os conteúdos de HQ's e filmes de heróis<br>
-    através de vídeos rápidos o <a href="https://www.omelete.com.br/omelete-hyperdrive" target="_blank">omelete hyperdrive</a><br></p>
-    <br><br>
-    <h2 id="skills">Habilidades</h2>
+    <h2 id="gosto" class="heads">Interesses</h2>
     <br>
-    <p>Na <a href="#Gui">foto</a> acima eu estou desenvolvendo uma das habilidades que mais me orgulho<br>
+    <p>Como lazer gosto de acompanhar sites de cultura pop, como o do <a class="links" href="https://www.omelete.com.br/" target="_blank">omelete</a><br>
+    um dos primeiros a ter ideia de discutir os conteúdos de HQ's e filmes de heróis<br>
+    através de vídeos rápidos o <a class="links" href="https://www.omelete.com.br/omelete-hyperdrive" target="_blank">omelete hyperdrive</a><br></p>
+    <br><br>
+    <h2 id="skills" class="heads">Habilidades</h2>
+    <br>
+    <p>Na <a class="links" href="#Gui">foto</a> acima eu estou desenvolvendo uma das habilidades que mais me orgulho<br>
     de possuir, o vontade de sempre aprender, ali eu aprendia desenho técnico. Acredito que o mesmo sorriso <br>
     dessa foto me cativa até hoje, sempre que me desafio a adquirir um novo conhecimento.<br>
-    Como é o caso com o que vocês veem agora, a prática do desenvolvimento de um portifólio web.<br>
+    Como é o caso com o que vocês veem agora, <strong>prática do desenvolvimento de um portifólio web</strong> .<br>
     </p>
+    <h2 id="skills" class="heads">Outras Habilidades</h2>
+    <ul>
+        <li class="big">Inglês intermediário</li>
+        <li class="big">Autocad avançado</li>
+        <li class="big">Sketchup avançado</li>
+        <li class="small">HTML em desenvolvimento</li>
+        <li class="small">CSS em desenvolvimento</li>
+    </ul>
     <br><br>
-    <h3><strong>Palavras-chave</strong></h3>
+    <h2 class="heads">Palavras-chave</h2>
     <br>
-    <a href="#Nome">Nome</a>; <a href="#Nasci">Naturalidade</a>; <a href="#formacao">Formação</a>; <a href="#gosto">Interesses</a>; <a href="#skills">Habilidades</a>
+    <a class="links" href="#Nome">Nome</a>; <a class="links" href="#Nasci">Naturalidade</a>; <a class="links" href="#formacao">Formação</a>; <a class="links" href="#gosto">Interesses</a>; <a class="links" href="#skills">Habilidades</a>
 
 
 
