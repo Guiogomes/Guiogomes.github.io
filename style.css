@@ -1,0 +1,183 @@
+body{
+    background-color: whitesmoke;
+}
+#Nome{
+    color: rgb(214, 65, 28);
+    font-style: italic;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    line-height: 120px;
+    margin: 30px;
+    padding: 20px 30px;
+}
+.exhibition{
+    float: left;
+    height: 470px;
+    padding: 15px;
+    background-color: green;
+    margin-left: 60px;
+      
+}
+.primeira-parte{
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+.paragrafo-primeira-parte{
+    margin-left: 580px;
+    margin-bottom: 0;
+    text-align: left;
+    height: 480px;
+    position: absolute;
+    padding: 10px;
+    width: 50%;
+}
+
+#titulo2{
+    margin-top: 120px;
+    margin-left: 110px;
+    margin-bottom: 0;
+    text-align: left;
+    text-align: center;
+    height: 480px;
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+}
+a:hover{
+   color: green;
+}
+.segundo-paragrafo-primeira-parte{
+    margin-top: 160px;
+    margin-left: 580px;
+    margin-bottom: 0;
+    text-align: left;
+    text-align: center;
+    height: 480px;
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+}
+.links-uteis{
+    margin-top: 380px;
+    margin-left: 700px;
+    position: absolute;
+}
+#titulo-final {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    margin-left: 130px;
+    margin-bottom: 90px;
+}
+.final-links{
+    
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 75px;
+}
+#Nasci, #formacao{
+    text-align: center;
+   
+}
+.mid-links{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+p{
+    color: rgb(190, 187, 33);
+    font-family: "Trirong", sans-serif;
+    text-align: left;
+    line-height: 30px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+.heads{
+    color: rgb(214, 65, 28);
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -1;
+    line-height: 20px;
+}
+.links{
+    font-family: "Trirong", sans-serif;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(211, 38, 196);
+}
+a{
+    font-family: "Trirong", sans-serif;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(211, 38, 196);
+}
+.segunda-parte{
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+.paragrafo-segunda-parte{
+    margin-top: 80px;
+    margin-bottom: 0;
+    text-align: left;
+    height: 480px;
+    position: absolute;
+    padding: 10px;
+    width: 50%;
+}
+.tabela {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 1640px;
+    padding: 70%px;
+    text-align: center;
+    width: fit-content;
+}
+ul{
+    list-style: none;
+}
+.big {
+    font-family: "Trirong", sans-serif;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(190, 187, 33);
+}
+.small {
+    font-family: "Trirong", sans-serif;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(190, 187, 33);
+}
+.descricao{
+    color: rgb(214, 65, 28);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -1;
+    
+}
+
+
+    
+    
+
+
