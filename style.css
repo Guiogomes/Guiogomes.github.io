@@ -10,6 +10,7 @@ body{
     line-height: 120px;
     margin: 30px;
     padding: 20px 30px;
+    z-index: 1;
 }
 .exhibition{
     float: left;
@@ -17,12 +18,14 @@ body{
     padding: 15px;
     background-color: green;
     margin-left: 60px;
+    z-index: 1;
       
 }
 .primeira-parte{
     height: 500px;
     text-align: center;
     position: relative;
+    z-index: 1;
 }
 .paragrafo-primeira-parte{
     margin-left: 580px;
@@ -32,6 +35,7 @@ body{
     position: absolute;
     padding: 10px;
     width: 50%;
+    z-index: 1;
 }
 
 #titulo2{
@@ -44,6 +48,7 @@ body{
     position: absolute;
     padding: 10px;
     width: 100%;
+    z-index: 1;
 }
 a:hover{
    color: green;
@@ -58,11 +63,13 @@ a:hover{
     position: absolute;
     padding: 10px;
     width: 100%;
+    z-index: 1;
 }
 .links-uteis{
     margin-top: 380px;
     margin-left: 700px;
     position: absolute;
+    z-index: 5;
 }
 #titulo-final {
     position: absolute;
@@ -76,6 +83,7 @@ a:hover{
     padding: 10px;
     margin-left: 30px;
     margin-top: 75px;
+    z-index: 5;
 }
 #Nasci, #formacao{
     text-align: center;
@@ -86,6 +94,7 @@ a:hover{
     margin-left: 900px;
     margin-top: 5px;
     padding: 5px;
+    z-index: 5;
     
 }
 p{
@@ -96,6 +105,7 @@ p{
     font-size: 25px;
     font-style: normal;
     font-weight: 100;
+    z-index: 1;
     
 }
 .heads{
@@ -105,6 +115,7 @@ p{
     font-weight: 800;
     letter-spacing: -1;
     line-height: 20px;
+    z-index: 1;
 }
 .links{
     font-family: "Trirong", sans-serif;
@@ -114,6 +125,7 @@ p{
     font-style: normal;
     font-weight: 100;
     color: rgb(211, 38, 196);
+    z-index: 5;
 }
 a{
     font-family: "Trirong", sans-serif;
@@ -124,10 +136,16 @@ a{
     font-weight: 100;
     color: rgb(211, 38, 196);
 }
+a:active{
+    text-transform: uppercase;
+}
+
+
 .segunda-parte{
     height: 500px;
     text-align: center;
     position: relative;
+    z-index: 1;
 }
 .paragrafo-segunda-parte{
     margin-top: 80px;
@@ -137,6 +155,7 @@ a{
     position: absolute;
     padding: 10px;
     width: 50%;
+    z-index: 1;
 }
 .tabela {
     position: absolute;
@@ -145,9 +164,11 @@ a{
     padding: 70%px;
     text-align: center;
     width: fit-content;
+    z-index: 1;
 }
 ul{
     list-style: none;
+    z-index: 1;
 }
 .big {
     font-family: "Trirong", sans-serif;
@@ -157,6 +178,7 @@ ul{
     font-style: normal;
     font-weight: 100;
     color: rgb(190, 187, 33);
+    z-index: 1;
 }
 .small {
     font-family: "Trirong", sans-serif;
@@ -166,6 +188,7 @@ ul{
     font-style: normal;
     font-weight: 100;
     color: rgb(190, 187, 33);
+    z-index: 1;
 }
 .descricao{
     color: rgb(214, 65, 28);
@@ -173,6 +196,7 @@ ul{
     font-size: 40px;
     font-weight: 800;
     letter-spacing: -1;
+    z-index: 1;
     
 }
 
