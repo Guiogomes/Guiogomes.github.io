@@ -169,6 +169,7 @@ a:active{
 ul{
     list-style: none;
     z-index: 1;
+    line-height: 20px;
 }
 .big {
     font-family: "Trirong", sans-serif;
