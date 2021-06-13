@@ -1,0 +1,43 @@
+section {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;  
+}
+
+#color-palette {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 50px;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.color {
+    border: solid black 1px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.repeat-pixel {
+    display: table;
+}
+
+#pixel-board {    
+  box-sizing: border-box;
+  grid-area: main;
+  margin: 0px auto;
+  padding: 30px;
+  width: 80%;
+  text-align: center;
+}
+
+.pixel {    
+  border: 1px solid black;
+  grid-area: center;
+  height: 40px;
+  width: 40px;     
+}
